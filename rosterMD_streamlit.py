@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.image("Tab_Logo.png", width = 100)
 st.title("RosterMD: Gauging Healthcare Employee Satisfaction")
 st.write("Authors: Ansh Bhatti, Abhishek Pillai, Khushi Gupta")
 st.write("")

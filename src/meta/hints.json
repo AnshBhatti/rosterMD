@@ -1,0 +1,20 @@
+{
+    "[data-ref=unplanned] .b-grid-header": {
+        "align" : {
+            "align": "t-b",
+            "offset": [0, 180]
+        },
+        "title": "Unplanned tasks",
+        "content": "Drag these tasks onto the schedule to assign to a resource. Please note this is using the Bryntum Grid, licensed separately."
+    },
+
+    ".b-sch-event" : {
+        "title": "Unassign",
+        "content": "Right click an event and select 'Unassign' to move it to unassigned tasks"
+    },
+
+    ".b-fa-calendar" : {
+        "title": "Auto-reschedule tasks",
+        "content": "With this button you can control if overlapping tasks should be rescheduled after an update to avoid conflicts"
+    }
+}

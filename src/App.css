@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Easterica';
+  src: url('./easterica-regular.ttf') format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
 .App {
   text-align: center;
 }
@@ -12,6 +18,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +50,156 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #000000;
+}
+.popup-content {
+  padding: 30px;
+  color: #ffffff;
+  background-color: linear-gradient(to right, rgb(252, 74, 26), rgb(247, 183, 51));;
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 50%;
+}
+                    .button-63 {
+                    align-items: center;
+                    background-image: linear-gradient(to right, rgb(252, 74, 26), rgb(247, 183, 51));
+                    border: 0;
+                    border-radius: 8px;
+                    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+                    box-sizing: border-box;
+                    color: #ffffff;
+                    font-family: 'Easterica';
+                    justify-content: center;
+                    line-height: 1em;
+                    max-width: 100%;
+                    min-width: 140px;
+                    padding: 10px 14px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    }
+
+                    .button-63:active,
+                    .button-63:hover {
+                      background-image: linear-gradient(to right, rgba(252, 74, 26, 0.6), rgba(247, 183, 51, 0.6));
+                      color: #000;
+                    }
+
+                    @media (min-width: 768px) {
+                    .button-63 {
+                        font-size: 24px;
+                        min-width: 196px;
+                    }
+                }
+                
+  .form-input{
+
+
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(255, 255, 255, 255);
+    appearance: none;
+    width: 15%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all .2s ease;
+  }
+    :hover{
+        
+    }
+    :focus{
+        background: #fff;
+        outline: 0;
+        box-shadow: 0 0 0 0 #fff inset, #feb60e 0 0 0 3px;
+    }
+
+    .grid-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .grid-item {
+      flex: 0 32%;
+      height: 100px;
+      margin-bottom: 2%; /* (100-32*3)/2 */
+      background-color: white;
+    }
+
+    .form-input1{
+
+
+      box-shadow: inset #abacaf 0 0 0 2px;
+      border: 0;
+      background: rgba(255, 255, 255, 255);
+      appearance: none;
+      width: 100%;
+      position: relative;
+      border-radius: 3px;
+      padding: 9px 12px;
+      line-height: 1.4;
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 400;
+      height: 40px;
+      transition: all .2s ease;
+    }
+      :hover{
+          
+      }
+      :focus{
+          background: #fff;
+          outline: 0;
+          box-shadow: 0 0 0 0 #fff inset, #feb60e 0 0 0 3px;
+      }
+
+
+      .card {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px auto;
+        background-color: #efefef;
+        align-items: center;
+        height: auto;
+        width: 60%;
+        border-radius: 20px;
+      }
+      
+      .title {
+        color: grey;
+        font-size: 18px;
+      }
+      
+      .button-doc {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+      }
+      
+      .button-doc:hover, a:hover {
+        opacity: 0.7;
+      }

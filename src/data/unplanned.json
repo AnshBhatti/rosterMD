@@ -1,0 +1,95 @@
+[
+    {
+        "id"       : 10,
+        "name"     : "Coding tasks",
+        "iconCls"  : "b-fa b-fa-code",
+        "expanded" : true,
+        "children" : [
+            {
+                "id"           : 11,
+                "name"         : "Write Angular component",
+                "duration"     : 4,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-code"
+            },
+            {
+                "id"           : 12,
+                "name"         : "Implement Geocoding",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-code"
+            },
+            {
+                "id"           : 13,
+                "name"         : "Write bubblesort algorithm",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-code"
+            },
+            {
+                "id"           : 14,
+                "name"         : "Upgrade to React 18",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-code"
+            }
+        ]
+    },
+    {
+        "id"       : 20,
+        "name"     : "Dev-ops tasks",
+        "iconCls"  : "b-fa b-fa-cogs",
+        "expanded" : true,
+        "children" : [
+            {
+                "id"           : 21,
+                "name"         : "Upgrade server",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-arrow-up"
+            },
+            {
+                "id"           : 22,
+                "name"         : "Install nginx",
+                "duration"     : 4,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-server"
+            },
+            {
+                "id"           : 23,
+                "name"         : "Update SSL certificate",
+                "duration"     : 1,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-lock"
+            },
+            {
+                "id"           : 24,
+                "name"         : "RAID disk test",
+                "duration"     : 4,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-database"
+            },
+            {
+                "id"           : 25,
+                "name"         : "Apache setup",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-laptop-code"
+            },
+            {
+                "id"           : 26,
+                "name"         : "TeamCity upgrade",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-cog"
+            },
+            {
+                "id"           : 27,
+                "name"         : "Build script fix",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "iconCls"      : "b-fa b-fa-fw b-fa-keyboard"
+            }
+        ]
+    }
+]

@@ -1,4 +1,4 @@
-![RosterMD Logo](Logo.png)
+<img src = "Logo.png" width = 200 height = 100/>
 
 ## Inspiration
 

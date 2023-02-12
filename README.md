@@ -1,4 +1,4 @@
-<img src = "Logo.png" width = 200 height = 100/>
+<img src = "Logo.png" width = 300 height = 150/>
 
 ## Inspiration
 
